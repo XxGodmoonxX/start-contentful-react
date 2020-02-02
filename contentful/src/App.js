@@ -4,8 +4,8 @@ import * as contentful from "contentful";
 
 class App extends React.Component {
   client = contentful.createClient({
-    space: "<Space ID>",
-    accessToken: "<Content Delivery API - access token>"
+    space: "<Space ID>", // SettingsのAPI keysのSpace ID
+    accessToken: "<Content Delivery API - access token>" // SettingsのAPI keysのContent Delivery API - access token
   });
 
   state = {
